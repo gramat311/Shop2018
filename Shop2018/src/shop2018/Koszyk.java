@@ -19,7 +19,9 @@ public class Koszyk {
     {
     if(map.containsKey(p))
     {
-        
+        int i = map.get(p);
+        i++;
+        map.put(p, i);
     }
     else
     {
